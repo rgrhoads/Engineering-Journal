@@ -6,6 +6,9 @@
   ```javascript 
     npm install nodemon
   ```
+  ```javascript 
+    npm install webpack
+  ```
 - [ ] Create a server folder
 - [ ] Create index.js file
   ```javascript

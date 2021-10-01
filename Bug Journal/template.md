@@ -2,11 +2,20 @@
 
 ## Solved:
 
-- [x] ``` relation "product" does not exist ```
-- Description: I was not able to query the database.
-- Solution: In my .sql file I was not connecting to my database. Adding the below code resolved my issue.
+- [x] ``` SOLVED BUG GOES HERE ```
+
+- Description: DESCRIBE BUG HERE
+- Solution: DESCRIBE SOLUTION HERE
   ``` javascript
-    \c products_database;
+    \\ CODE SNIPPET HERE
   ```
 
 ## Unsolved:
+
+- [ ] ``` UNSOLVED BUG GOES HERE ```
+
+- Description: DESCRIBE BUG HERE
+- Solution: DESCRIBE SOLUTION HERE
+  ``` javascript
+    \\ CODE SNIPPET HERE
+  ```

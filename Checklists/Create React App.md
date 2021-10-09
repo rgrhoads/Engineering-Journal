@@ -5,4 +5,21 @@
   - Create Client / Server / Database folders
 
 [ ] Create index.js file in Server folder
-  -
+  - ```
+  
+  const express = require('express');
+  const path = require('path');
+
+  let app = express();
+
+  const port = 3777;
+
+  app.use(express.static(path.join(__dirname, '..', '/client/dist')));
+  app.use(express.json());
+  app.use(express.urlencoded({extended: true}));
+
+  app.listen(port, function() {
+    console.log(`Listening on Port: ${port}`);
+  });
+  
+```

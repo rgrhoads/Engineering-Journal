@@ -31,10 +31,14 @@
     });
   ```
   
-  ## Initialize Client
+## Initialize Database
+
+- [ ] Checklist In Progress...
+
+## Initialize Client
 
 - [ ] Create index.js file in Client folder
 
   ```javascript
-  
+
   ```

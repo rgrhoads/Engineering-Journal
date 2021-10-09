@@ -37,6 +37,13 @@
 
 ## Initialize Client
 
+- [ ] Create dist folder
+  - Create index.html file
+    ```html
+      test
+
+    ```
+
 - [ ] Create index.js file in Client folder
 
   ```javascript

@@ -1,12 +1,12 @@
 # Creating React Appplication
 
-[ ] Initialize New Repository (see GUIDE TBD)
+- [ ] Initialize New Repository (see GUIDE TBD)
   - run: ``` npm init ```
   - Create Client / Server / Database folders
 
 ## Initialize Server
 
-[ ] Create index.js file in Server folder
+- [ ] Create index.js file in Server folder
 
   ```javascript
     const express = require('express');

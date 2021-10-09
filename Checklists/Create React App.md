@@ -5,8 +5,7 @@
   - Create Client / Server / Database folders
 
 [ ] Create index.js file in Server folder
-  - ```
-  
+```javascript
   const express = require('express');
   const path = require('path');
 
@@ -21,5 +20,4 @@
   app.listen(port, function() {
     console.log(`Listening on Port: ${port}`);
   });
-  
 ```

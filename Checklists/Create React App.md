@@ -24,3 +24,11 @@
       console.log(`Listening on Port: ${port}`);
     });
   ```
+  
+  ## Initialize Client
+
+- [ ] Create index.js file in Client folder
+
+  ```javascript
+  
+  ```

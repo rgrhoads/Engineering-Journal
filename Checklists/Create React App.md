@@ -1,8 +1,10 @@
-# Creating React App
+# Creating React Appplication
 
 [ ] Initialize New Repository (see GUIDE TBD)
   - run: ``` npm init ```
   - Create Client / Server / Database folders
+
+## Initialize Server
 
 [ ] Create index.js file in Server folder
 

@@ -4,6 +4,7 @@
   - run: ``` npm init ```
   - run: ``` npm install express ```
   - run: ``` npm install nodemon --save-dev ```
+  - run: ``` npm install webpack --save-dev ```
   - Create Client / Server / Database folders
 
 ## Initialize Server

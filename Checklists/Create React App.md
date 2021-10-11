@@ -63,9 +63,8 @@
       </html>
 
     ```
-
-- [ ] Create index.js file in Client folder
-
+- [ ] Create src folder
+  - Create index.js file
   ```javascript
 
   ```

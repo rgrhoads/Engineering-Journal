@@ -90,6 +90,10 @@
     class App extends React.Component {
       constructor(props) {
         super(props);
+        
+        this.state = {
+          test: "TEST STATE SUCCESS"
+        }
       }
       
       render() {

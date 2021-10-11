@@ -98,6 +98,8 @@
         )
       }
     }
+    
+    export default App;
   ````
 -  Create webpack.config.js
       ```javascript

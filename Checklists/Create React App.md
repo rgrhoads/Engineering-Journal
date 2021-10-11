@@ -5,6 +5,7 @@
   - run: ``` npm install express ```
   - run: ``` npm install react ```
   - run: ``` npm install react-dom ```
+  - run: ``` npm install axios ```
   - run: ``` npm install nodemon --save-dev ```
   - run: ``` npm install webpack --save-dev ```
   - Create Scripts in package.json:
@@ -68,15 +69,17 @@
 - [ ] Create src folder
   - Create index.js file
   ```javascript
-  import React from 'react';
-  import ReactDOM from 'react-dom';
+    import React from 'react';
+    import ReactDOM from 'react-dom';
 
-  import App from './components/App.jsx';
+    import App from './components/App.jsx';
 
-  ReactDOM.render(<App />, document.getElementById('app'));         
+    ReactDOM.render(<App />, document.getElementById('app'));         
   ```
 - Create components folder
   - create App.jsx
   ```javascript
-    
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import axios from 'axios';
   ````

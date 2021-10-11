@@ -1,4 +1,4 @@
-# Creating EXPRESS / React Appplication
+# Create PERN Application
 
 - [ ] Initialize New Repository (see GUIDE TBD)
   - run: ``` npm init ```

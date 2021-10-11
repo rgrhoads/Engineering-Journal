@@ -1,4 +1,4 @@
-# Creating React Appplication
+# Creating EXPRESS / React Appplication
 
 - [ ] Initialize New Repository (see GUIDE TBD)
   - run: ``` npm init ```

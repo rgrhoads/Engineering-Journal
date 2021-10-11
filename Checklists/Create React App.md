@@ -92,7 +92,7 @@
         super(props);
         
         this.state = {
-          test: "TEST STATE SUCCESS"
+          test: "STATE TEST SUCCESS"
         }
       }
       

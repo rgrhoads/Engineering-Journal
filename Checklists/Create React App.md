@@ -40,7 +40,17 @@
 - [ ] Create dist folder
   - Create index.html file
     ```html
-      test
+      <!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript" src="bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </body>
+</html>
 
     ```
 

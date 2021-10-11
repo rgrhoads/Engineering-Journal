@@ -3,6 +3,8 @@
 - [ ] Initialize New Repository (see GUIDE TBD)
   - run: ``` npm init ```
   - run: ``` npm install express ```
+  - run: ``` npm install react ```
+  - run: ``` npm install react-dom ```
   - run: ``` npm install nodemon --save-dev ```
   - run: ``` npm install webpack --save-dev ```
   - Create Scripts in package.json:

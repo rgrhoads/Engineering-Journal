@@ -7,7 +7,7 @@
   - run: ``` npm install react-dom ```
   - run: ``` npm install axios ```
   - run: ``` npm install nodemon --save-dev ```
-  - run: ``` npm install webpack --save-dev ```
+  - run: ``` npm install --save-dev webpack webpack-cli```
   - run: ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
     
   - Create Scripts in package.json:

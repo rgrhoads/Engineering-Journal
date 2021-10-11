@@ -42,6 +42,7 @@
 ## Initialize Client
 
 - [ ] Create dist folder
+  - Create style.css file
   - Create index.html file
     ```html
       <!DOCTYPE html>

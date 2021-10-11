@@ -5,7 +5,7 @@
   - run: ``` npm install express ```
   - run: ``` npm install nodemon --save-dev ```
   - run: ``` npm install webpack --save-dev ```
-  - Create Scripts "react-dev": "webpack -d --watch"
+  - Create Scripts in package.json:
     -  ``` "start": "nodemon Server/index.js" ```
     -  ``` "react-dev": "webpack -d --watch" ```
   - Create Client / Server / Database folders

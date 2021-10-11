@@ -75,3 +75,8 @@
 
   ReactDOM.render(<App />, document.getElementById('app'));         
   ```
+- Create components folder
+  - create App.jsx
+  ```javascript
+    
+  ````

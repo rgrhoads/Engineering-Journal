@@ -45,21 +45,21 @@
   - Create index.html file
     ```html
       <!DOCTYPE html>
-<html>
+      <html>
 
-  <head>
-    <title>TITLEHERE</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-  </head>
+        <head>
+          <title>TITLEHERE</title>
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+          <link rel="stylesheet" href="styles.css">
+        </head>
 
-  <body>
-    <h1>Header Here</h1>
-    <div id="app"></div>
-    <script type="text/javascript" src="bundle.js"></script>
-  </body>
+        <body>
+          <h1>Header Here</h1>
+          <div id="app"></div>
+          <script type="text/javascript" src="bundle.js"></script>
+        </body>
 
-</html>
+      </html>
 
     ```
 

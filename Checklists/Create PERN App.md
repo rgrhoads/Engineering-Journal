@@ -16,7 +16,8 @@
   - Create Scripts in package.json:
     -  ``` 
          "start": "nodemon Server/index.js",
-         "react-dev": "webpack -d --watch"
+         "react-dev": "webpack -d --watch",
+         "build-db": "psql postgres < schema.sql"
        ```
   - Create Client / Server / Database folders
 

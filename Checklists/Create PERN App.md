@@ -54,9 +54,9 @@
     const credentials = {
       host: 'localhost',
       port: 5432,
-      user: 'Rhoads',
-      password: null,
-      database: 'products_database',
+      user: 'USERNAME_HERE',
+      password: null, // 'PASSWORD_HERE',
+      database: 'DB_NAME_HERE',
       max: 20,
     };
 

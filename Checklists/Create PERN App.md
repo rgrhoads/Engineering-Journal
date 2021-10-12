@@ -32,7 +32,8 @@
     let app = express();
 
     const port = 3777;
-
+    
+    app.use(express.static(path.join(__dirname, '..', '/client/dist')));
     app.use(express.json());
     app.use(express.urlencoded({extended: true}));
 

@@ -76,7 +76,7 @@
     };
   ```
 - [ ] Initialize database by running:
-  - ``` npm build-db ```
+  - ``` npm run build-db ```
 
 ## Initialize Client
 

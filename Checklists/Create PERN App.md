@@ -4,6 +4,7 @@
 - [ ] Clone GitHub repository to local machine.
 - [ ] Inside of cloned repository run the following commands
   - ``` npm init ```
+  - ``` npm install pg ```
   - ``` npm install express ```
   - ``` npm install react ```
   - ``` npm install react-dom ```

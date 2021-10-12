@@ -1,14 +1,16 @@
 # Create PERN Application
 
-- [ ] Initialize New Repository (see GUIDE TBD)
-  - run: ``` npm init ```
-  - run: ``` npm install express ```
-  - run: ``` npm install react ```
-  - run: ``` npm install react-dom ```
-  - run: ``` npm install axios ```
-  - run: ``` npm install nodemon --save-dev ```
-  - run: ``` npm install --save-dev webpack webpack-cli```
-  - run: ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
+- [ ] Initialize new repository (GUIDE TBD)
+- [ ] Clone GitHub repository to local machine.
+- [ ] Inside of cloned repository run the following commands
+  - ``` npm init ```
+  - ``` npm install express ```
+  - ``` npm install react ```
+  - ``` npm install react-dom ```
+  - ``` npm install axios ```
+  - ``` npm install nodemon --save-dev ```
+  - ``` npm install --save-dev webpack webpack-cli```
+  - ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
     
   - Create Scripts in package.json:
     -  ``` 

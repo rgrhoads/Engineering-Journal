@@ -45,23 +45,30 @@
 ## Initialize Database
 
 - [ ] Create index.js file
-  ```html
-    <!DOCTYPE html>
-    <html>
+  ```javascript
+    const { Pool, Client } = require('pg');
 
-      <head>
-        <title>TITLEHERE</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-      </head>
+    const credentials = {
+      host: 'localhost',
+      port: 5432,
+      user: 'Rhoads',
+      password: null,
+      database: 'products_database',
+      max: 20,
+    };
 
-      <body>
-        <h1>Header Here</h1>
-        <div id="app"></div>
-        <script type="text/javascript" src="bundle.js"></script>
-      </body>
+    const pool = new Pool(credentials);
 
-    </html>
+    pool.connect()
+    .then(() => console.log('connected to database'))
+    .catch((err) => console.log(err));
+
+    module.exports = {
+      query(text, params, callback) {
+        const results = await pool.query(text, params, callback);
+        return results;
+      }
+    };
   ```
 
 ## Initialize Client

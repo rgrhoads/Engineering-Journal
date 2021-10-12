@@ -70,6 +70,7 @@
       }
     };
   ```
+- [ ] Create index.js file
 
 ## Initialize Client
 

@@ -70,7 +70,7 @@
       }
     };
   ```
-- [ ] Create index.js file
+- [ ] Create schema.sql file
 
 ## Initialize Client
 

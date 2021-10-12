@@ -44,6 +44,7 @@
   
 ## Initialize Database
 
+- [ ] Create schema.sql file
 - [ ] Create index.js file
   ```javascript
     const { Pool, Client } = require('pg');
@@ -70,7 +71,6 @@
       }
     };
   ```
-- [ ] Create schema.sql file
 
 ## Initialize Client
 

@@ -28,15 +28,15 @@
     
     ``` git checkout -b [NEW BRANCH NAME] ```
 
-- [ ] Switch to env.local
+- [ ] Switch to local environment
     
     ``` . .env.local ```
 
-- [ ] Run NPM build script
+- [ ] Re-bundle updated code base
     
     ``` npm run build ```
 
-- [ ] Run NPM serve script
+- [ ] Run the re-bundled code
     
     ``` npm run serve ```
     

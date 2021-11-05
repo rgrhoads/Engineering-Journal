@@ -13,13 +13,14 @@
   - ``` npm install --save-dev webpack webpack-cli```
   - ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
     
+  - Create Client / Server / Database folders
+ 
   - Create Scripts in package.json:
     -  ``` 
          "start": "nodemon Server/index.js",
          "react-dev": "webpack -d --watch",
          "build-db": "psql postgres < schema.sql"
        ```
-  - Create Client / Server / Database folders
 
 ## Initialize Server
 

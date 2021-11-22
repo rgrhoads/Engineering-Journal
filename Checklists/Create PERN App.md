@@ -13,6 +13,7 @@
   - ``` npm install --save-dev webpack webpack-cli```
   - ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
 
+  - [ ] Create schema.sql file
   -  Create webpack.config.js
         ```javascript
           var path = require('path');
@@ -82,7 +83,6 @@
   
 ## Initialize Database
 
-- [ ] Create schema.sql file
 - [ ] Create index.js file
   ```javascript
     const { Pool, Client } = require('pg');

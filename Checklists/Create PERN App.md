@@ -52,7 +52,7 @@
   - Create Scripts in package.json:
     -  ``` 
          "start": "nodemon Server/index.js",
-         "react-dev": "webpack -d --watch",
+         "react-dev": "webpack --config ./webpack.config.js --mode development -w",
          "build-db": "psql postgres < schema.sql"
        ```
 

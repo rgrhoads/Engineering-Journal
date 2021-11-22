@@ -13,7 +13,7 @@
   - ``` npm install --save-dev webpack webpack-cli```
   - ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
 
-- [ ] Create Configuration Files
+- [ ] Create Configuration Files and Folders
   -  Create schema.sql file
   -  Create webpack.config.js
         ```javascript

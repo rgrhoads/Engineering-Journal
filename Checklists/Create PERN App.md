@@ -12,14 +12,49 @@
   - ``` npm install nodemon --save-dev ```
   - ``` npm install --save-dev webpack webpack-cli```
   - ``` npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader```
+
+- [ ] Create Configuration Files and Folders
+  -  Create schema.sql file
+  -  Create webpack.config.js
+        ```javascript
+          var path = require('path');
+          var SRC_DIR = path.join(__dirname, '/client/src');
+          var DIST_DIR = path.join(__dirname, '/client/dist');
+
+          module.exports = {
+            entry: `${SRC_DIR}/index.js`,
+            output: {
+              filename: 'bundle.js',
+              path: DIST_DIR
+            },
+            module: {
+              rules: [
+                {
+                  test: /\.(js|jsx)?/,
+                  exclude: /node_modules/,
+                  use: {
+                    loader: "babel-loader",
+                    options: {
+                      presets: [
+                        "@babel/preset-env",
+                        "@babel/preset-react"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          };
+        ```
     
+  - Create Client / Server / Database folders
+ 
   - Create Scripts in package.json:
     -  ``` 
          "start": "nodemon Server/index.js",
-         "react-dev": "webpack -d --watch",
+         "react-dev": "webpack --config ./webpack.config.js --mode development -w",
          "build-db": "psql postgres < schema.sql"
        ```
-  - Create Client / Server / Database folders
 
 ## Initialize Server
 
@@ -49,7 +84,6 @@
   
 ## Initialize Database
 
-- [ ] Create schema.sql file
 - [ ] Create index.js file
   ```javascript
     const { Pool, Client } = require('pg');
@@ -113,7 +147,7 @@
 
     ReactDOM.render(<App />, document.getElementById('app'));         
   ```
-- Create components folder
+- [ ] Create components folder
   - create App.jsx
   ```javascript
     import React from 'react';
@@ -137,34 +171,4 @@
     
     export default App;
   ````
--  Create webpack.config.js
-      ```javascript
-        var path = require('path');
-        var SRC_DIR = path.join(__dirname, '/client/src');
-        var DIST_DIR = path.join(__dirname, '/client/dist');
 
-        module.exports = {
-          entry: `${SRC_DIR}/index.js`,
-          output: {
-            filename: 'bundle.js',
-            path: DIST_DIR
-          },
-          module: {
-            rules: [
-              {
-                test: /\.(js|jsx)?/,
-                exclude: /node_modules/,
-                use: {
-                  loader: "babel-loader",
-                  options: {
-                    presets: [
-                      "@babel/preset-env",
-                      "@babel/preset-react"
-                    ]
-                  }
-                }
-              }
-            ]
-          }
-        };
-      ```
